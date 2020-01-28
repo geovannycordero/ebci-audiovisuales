@@ -58,12 +58,7 @@ wget https://desktop-download.mendeley.com/download/apt/pool/main/m/mendeleydesk
 sudo dpkg -i mendeleydesktop_1.19.4-stable_amd64.deb
 rm mendeleydesktop_1*
 
-# Koha
-echo deb http://debian.koha-community.org/koha stable main | sudo tee /etc/apt/sources.list.d/koha.list
-wget -O- https://debian.koha-community.org/koha/gpg.asc | sudo apt-key add -
-sudo apt update
-sudo apt -y install koha-common
-
+# Cmap Tools
 wget https://cmapdownload.ihmc.us/installs/CmapTools/Linux/Linux64CmapTools_v6.04_09-24-19.bin
 chmod +x Linux64CmapTools_v6.04_09-24-19.bin
 ./Linux64CmapTools_v6.04_09-24-19.bin
