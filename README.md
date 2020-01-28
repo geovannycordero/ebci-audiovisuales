@@ -14,19 +14,19 @@ En este repositorio encontrará un script escrito en bash para realizar la insta
 
 ## Instrucciones
 **Desde la terminal**, clonar el repositorio en la máquina en la que se desea trabajar. Una vez que se tiene este localmente, ubicarse en el directorio raíz del repositorio.
-´´´bash
+```bash
 cd ebci-audiovisuales
-´´´
+```
 
 Conceder permisos de ejecución al script.
-´´´bash
+```bash
 chmod +x instalacion.sh
-´´´
+```
 
 Ejecutar el script con permisos de administrador.
-´´´bash
+```bash
 sudo ./instalacion.sh
-´´´
+```
 
 Luego de esto, verificar que todos los paquetes se instalaron de manera correcta.
 
