@@ -50,6 +50,11 @@ sudo apt -y install sigil
 
 sudo apt -y install openshot
 
+
+sudo apt -y install inkscape
+
+sudo apt -y install gimp
+
 # Paquetes que no se encuentran disponibles con apt, verificar que sea la versión más reciente antes de ejecutar el script 
 sudo apt -y install gconf2
 
